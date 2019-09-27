@@ -109,6 +109,7 @@ section {
 body {
 	line-height: 1;
 	font-family: 'Microsoft JhengHei'!important;
+	
 }
 
 ol,
@@ -1864,7 +1865,7 @@ article.special {
 }
 
 header p {
-	color: #aaa;
+	color: #4acaa8;
 	position: relative;
 	margin: 0 0 1.6875em 0;
 }
@@ -1891,11 +1892,11 @@ header h6+p {
 
 header.major h2 {
 	color: #4acaa8;
-	font-size: 3.5em;
+	font-size: 1.75em;
 }
 
 header.major h2+p {
-	color: #777;
+	color: #4acaa8;
 	font-size: 1.75em;
 	font-weight: 700;
 	margin-top: -0.75em;
@@ -2170,7 +2171,7 @@ input[type="radio"]+label:before {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	
 }
 
 .image[data-position="top left"] img {
@@ -2485,12 +2486,12 @@ ul.feature-icons {
 
 ul.feature-icons li {
 	text-decoration: none;
-	display: inline-block;
+	display: block;
 	margin: 0 0 1.6875em 0;
 	padding: 0.35em 0 0 3.5em;
 	position: relative;
 	vertical-align: top;
-	width: 48%;
+	
 }
 
 ul.feature-icons li:before {
@@ -2806,7 +2807,7 @@ input[type="button"]:disabled,
 	-webkit-justify-content: space-between;
 	-ms-justify-content: space-between;
 	justify-content: space-between;
-	background: silver;
+	background: #4acaa8;
 	color: #d2f2e9;
 	height: 100%;
 	overflow-y: auto;
@@ -3021,9 +3022,7 @@ input[type="button"]:disabled,
 
 	/* Main */
 
-	#main>section>.container {
-		padding: 4em 0 2em 0;
-	}
+	
 
 }
 
@@ -3089,7 +3088,7 @@ input[type="button"]:disabled,
 	}
 
 	.image.main {
-		height: 20em;
+		height: 50em;
 	}
 
 	/* Header */
@@ -3280,7 +3279,7 @@ input[type="button"]:disabled,
 	}
 
 	.image.main {
-		height: 12em;
+		width:100%;
 	}
 
 	/* Section/Article */
