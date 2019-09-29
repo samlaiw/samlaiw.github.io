@@ -29,7 +29,14 @@ code,
 del,
 dfn,
 em,
-img,
+img {
+	
+			 height: auto;
+			 
+			 max-width: 100%;
+	
+	 }
+	
 ins,
 kbd,
 q,
@@ -2946,7 +2953,7 @@ input[type="button"]:disabled,
 }
 
 #main>section>.container {
-	padding: 13em 0 4em 0;
+	padding: 7em 0 4em 0;
 }
 
 #main>section:first-child {
